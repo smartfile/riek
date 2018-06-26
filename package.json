@@ -1,12 +1,12 @@
 {
-  "name": "@attently/riek",
-  "version": "2.0.1",
+  "name": "@smartfile/riek",
+  "version": "2.0.2",
   "description": "React Inline Edit Kit",
   "author": "Kai Vik <kvi@ieee.org>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/attently/riek.git"
+    "url": "git@github.com:smartfile/riek.git"
   },
   "main": "lib/index.js",
   "keywords": [
@@ -18,7 +18,7 @@
     "inline"
   ],
   "bugs": {
-	"url": "https://github.com/attently/riek/issues"
+    "url": "https://github.com/attently/riek/issues"
   },
   "homepage": "https://github.com/attently/riek#readme",
   "scripts": {
