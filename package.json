@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git@github.com:smartfile/riek.git"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "keywords": [
     "react",
     "in-place",

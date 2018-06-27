@@ -20925,12 +20925,12 @@
 	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = RIESelect.__proto__ || Object.getPrototypeOf(RIESelect)).call.apply(_ref, [this].concat(args))), _this), _this.finishEditing = function () {
 	            // get the object from options that matches user selected value
 	            var newValue = _this.props.options.find(function (option) {
-	                return option.id === _reactDom2.default.findDOMNode(this.refs.input).value;
+	                return option.id == _reactDom2.default.findDOMNode(this.refs.input).value;
 	            }, _this);
 
 	            _this.doValidations(newValue);
 
-	            if (!_this.state.invalid && _this.props.value !== newValue) {
+	            if (!_this.state.invalid && _this.props.value != newValue) {
 	                _this.commit(newValue);
 	            }
 
