@@ -1,5 +1,5 @@
 {
-  "name": "@smartfile/riek",
+  "name": "smartfile/riek",
   "version": "2.0.2",
   "description": "React Inline Edit Kit",
   "author": "Kai Vik <kvi@ieee.org>",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git@github.com:smartfile/riek.git"
   },
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "keywords": [
     "react",
     "in-place",
@@ -18,9 +18,9 @@
     "inline"
   ],
   "bugs": {
-    "url": "https://github.com/attently/riek/issues"
+    "url": "https://github.com/smartfile/riek/issues"
   },
-  "homepage": "https://github.com/attently/riek#readme",
+  "homepage": "https://github.com/smartfile/riek#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
