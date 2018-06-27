@@ -46,7 +46,7 @@ export default class RIEBase extends React.Component {
 
     static defaultProps = {
 		shouldStartEditOnDoubleClick: false,
-		defaultValue: 'CLICK TO EDIT',
+		defaultValue: '(Click to edit)',
 	};
 
 	getValue = (oldValue = this.props.value) => {
